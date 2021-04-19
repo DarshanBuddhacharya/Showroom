@@ -1,0 +1,155 @@
+/*-----------------------------------------------contact------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+body {
+  background-image: url(back3.jpg);
+  background-attachment: fixed;
+}
+/*------------------------------------------------Start of contact---------------------------------------*/
+.design {
+  float: left;
+  margin-top: 30px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  height: 800px;
+}
+.design .container6 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.design .container6 .box6 {
+  position: relative;
+  text-align: center;
+  max-width: 510px;
+  padding: 40px;
+  background: rgb(211, 208, 208);
+  box-shadow: 5px 5px 5px 5px rgb(19, 0, 0);
+  border-radius: 4px;
+  margin: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: 1s;
+}
+.design .container6 .box6 p {
+  margin-top: 10%;
+  font-size: x-large;
+}
+.design .container6 .box6 .or {
+  margin-top: 30%;
+  font-size: xx-large;
+}
+.design .container6 .box6 .after {
+  margin-top: 20%;
+}
+.design .container6 .box6:nth-child(1):hover {
+  color: white;
+  background: green;
+  transition: 1s;
+  box-shadow: 8px 8px 8px 8px black;
+}
+.design .container6 .box6:nth-child(2):hover {
+  color: white;
+  background: blue;
+  transition: 1s;
+  box-shadow: 8px 8px 8px 8px black;
+}
+.design .container6 .box6:nth-child(3):hover {
+  color: white;
+  background: red;
+  transition: 1s;
+  box-shadow: 8px 8px 8px 8px black;
+}
+.design .container6 .box6:nth-child(1) .icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  color: white;
+  background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  font-size: xx-large;
+  font-weight: 700;
+  transition: 3s;
+}
+.design .container6 .box6:nth-child(2) .icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  color: white;
+  background: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  font-size: xx-large;
+  font-weight: 700;
+  transition: 3s;
+}
+.design .container6 .box6:nth-child(2) .socialSa a {
+  border: 3px solid gray;
+  margin-top: 15px;
+  width: 45px;
+  height: 38px;
+  padding-top: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: x-large;
+  color: aliceblue;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.design .container6 .box6:nth-child(2) .socialSa a:hover {
+  border: 3px solid white;
+  color: white;
+  transition: 0.5s;
+}
+.design .container6 .box6:nth-child(3) .icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  color: white;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  font-size: xx-large;
+  font-weight: 700;
+  transition: 3s;
+}
+/* for nth3 */
+.design .container6 .box6:nth-child(3) .name2-input {
+  display: inline-block;
+  background: white;
+  color: black;
+  margin-bottom: 10px;
+  height: 20px;
+  width: 400px;
+  padding: 5px;
+}
+.design .container6 .box6:nth-child(3) .comment-input {
+  display: inline-block;
+  background: white;
+  color: black;
+  height: 60px;
+  width: 400px;
+  padding: 5px;
+}
+.design .container6 .box6:nth-child(3) .btn {
+  background: rgb(48, 157, 201);
+  color: aliceblue;
+  width: 100px;
+  height: 30px;
+  transition: 0.5s;
+}
+.design .container6 .box6:nth-child(3) .btn:hover {
+  background-color: rgb(230, 93, 93);
+  cursor: pointer;
+  transition: 0.5s;
+}
+/*------------------------------------------------End of contact---------------------------------------*/

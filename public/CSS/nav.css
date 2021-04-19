@@ -1,0 +1,100 @@
+/*---------------------------------------------Nav bar--------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: century Gothic;
+}
+body {
+  background-image: url(/images/back3.jpg);
+  background-attachment: fixed;
+}
+header {
+  display: flex;
+  background-color: black;
+}
+header .logo img {
+  float: left;
+  margin-left: 20px;
+  max-width: 100px;
+  height: auto;
+}
+header ul {
+  text-align: center;
+  font-size: 20px;
+  list-style-type: none;
+  float: left;
+  margin-left: 350px;
+}
+header ul li {
+  display: inline-block;
+  margin-top: 25px;
+}
+header ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  border: 1px;
+  transition: 0.6s ease;
+}
+header ul li a:hover {
+  background-color: white;
+  color: black;
+}
+header ul li.active a {
+  background-color: white;
+  color: black;
+}
+header .search {
+  float: right;
+}
+header .main-header {
+  max-width: auto;
+}
+header .main-header input[type="text"] {
+  padding: 6px;
+  width: 250px;
+  border: none;
+  font-size: 17px;
+}
+header .main-header .search button {
+  background-color: cornflowerblue;
+  float: right;
+  padding: 6px;
+  margin-right: 20px;
+  font-size: 17px;
+  border: none;
+}
+header .main-header .search button:hover {
+  background-color: rgb(230, 93, 93);
+  color: white;
+}
+header .menu-toggle {
+  color: whitesmoke;
+  display: none;
+}
+/*------------------------------------------End of Nav bar----------------------------------------------------*/
+/*-------------------------------------------media queries--------------------------------------------------*/
+@media only screen and (max-width: 850px) {
+  header ul {
+    text-align: right;
+    max-width: 100%;
+    max-height: 0px;
+    overflow: hidden;
+    background-color: rgb(29, 28, 28);
+    transition: 0.5s;
+  }
+  .showing {
+    max-height: 100cm;
+  }
+  header ul li {
+    max-width: 100%;
+  }
+  header .menu-toggle {
+    position: absolute;
+    display: block;
+    right: 20px;
+    top: 20px;
+    font-size: xx-large;
+  }
+}

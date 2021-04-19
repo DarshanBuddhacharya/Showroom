@@ -1,0 +1,25 @@
+.data2 {
+  font-size: xx-large;
+  margin-top: 30px;
+  color: white;
+  max-width: 100%;
+}
+.intro2 {
+  text-align: center;
+}
+.data-content {
+  max-width: 100%;
+  min-height: 400px;
+  background: transparent;
+  color: aliceblue;
+}
+.data2 .inPic2 {
+  color: white;
+  justify-content: center;
+  z-index: 2;
+  position: relative;
+  font-size: 7vw;
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+}

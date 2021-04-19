@@ -1,0 +1,33 @@
+/*----------------------------------------------automobiles-------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+body {
+  background-image: url(./images/back3.jpg);
+  background-attachment: fixed;
+}
+/*---------------------------------------Main content start--------------------------------------------------*/
+.container4 {
+  max-width: 100%;
+  margin-top: 30px;
+  background: black;
+  font-size: xx-large;
+  color: white;
+}
+.intro4 {
+  text-align: center;
+}
+.content4 {
+  max-width: 100%;
+  min-height: 500px;
+  background: transparent;
+}
+.container4 .inPic {
+  color: white;
+  justify-content: center;
+  z-index: 2;
+  position: relative;
+  font-size: 7vw;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+}
+/*-----------------------------------------Main content end---------------------------------------------------*/

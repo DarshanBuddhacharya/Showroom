@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: century Gothic;
+}
+body {
+  background-image: url(/images/back3.jpg);
+  background-attachment: fixed;
+}
+header {
+  max-width: auto;
+  height: 80px;
+}
+header .logo img {
+  float: left;
+  margin-left: 20px;
+  max-width: 100px;
+  height: auto;
+}
+header ul {
+  text-align: center;
+  font-size: 20px;
+  list-style-type: none;
+  float: left;
+  margin-left: 350px;
+}
+header ul li {
+  display: inline-block;
+  margin-top: 25px;
+}
+header ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  border: 1px;
+  transition: 0.6s ease;
+}
+header ul li a:hover {
+  background-color: white;
+  color: black;
+}
+header ul li.active a {
+  background-color: white;
+  color: black;
+}
+header .search {
+  float: right;
+}
+header .main-header {
+  max-width: auto;
+}
+header .main-header input[type="text"] {
+  padding: 6px;
+  width: 250px;
+  margin-top: 23px;
+  border: none;
+  font-size: 17px;
+}
+header .main-header .search button {
+  background-color: cornflowerblue;
+  float: right;
+  padding: 6px;
+  margin-top: 23px;
+  margin-right: 20px;
+  font-size: 17px;
+  border: none;
+}
+header .main-header .search button:hover {
+  background-color: rgb(230, 93, 93);
+  color: white;
+}
+header .menu-toggle {
+  color: whitesmoke;
+  display: none;
+}
+/*Box*/
+.design {
+  float: left;
+  margin-top: 30px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  height: 800px;
+}
+.design .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.design .container .box {
+  position: relative;
+  text-align: center;
+  max-width: 510px;
+  padding: 40px;
+  background: rgb(211, 208, 208);
+  box-shadow: 5px 5px 5px 5px rgb(19, 0, 0);
+  border-radius: 4px;
+  margin: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: 1s;
+}
+.design .container .box p {
+  margin-top: 10%;
+  font-size: x-large;
+}
+.design .container .box .or {
+  margin-top: 30%;
+  font-size: xx-large;
+}
+.design .container .box .after {
+  margin-top: 20%;
+}
+.design .container .box:nth-child(1):hover {
+  color: white;
+  background: green;
+  transition: 1s;
+  box-shadow: 8px 8px 8px 8px black;
+}
+.design .container .box:nth-child(2):hover {
+  color: white;
+  background: blue;
+  transition: 1s;
+  box-shadow: 8px 8px 8px 8px black;
+}
+.design .container .box:nth-child(3):hover {
+  color: white;
+  background: red;
+  transition: 1s;
+  box-shadow: 8px 8px 8px 8px black;
+}
+.design .container .box:nth-child(1) .icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  color: white;
+  background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  font-size: xx-large;
+  font-weight: 700;
+  transition: 3s;
+}
+.design .container .box:nth-child(2) .icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  color: white;
+  background: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  font-size: xx-large;
+  font-weight: 700;
+  transition: 3s;
+}
+.design .container .box:nth-child(2) .socialSa a {
+  border: 3px solid gray;
+  margin-top: 15px;
+  width: 45px;
+  height: 38px;
+  padding-top: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: x-large;
+  color: aliceblue;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.design .container .box:nth-child(2) .socialSa a:hover {
+  border: 3px solid white;
+  color: white;
+  transition: 0.5s;
+}
+.design .container .box:nth-child(3) .icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  color: white;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  font-size: xx-large;
+  font-weight: 700;
+  transition: 3s;
+}
+/* for nth3 */
+.design .container .box:nth-child(3) .name2-input {
+  display: inline-block;
+  background: white;
+  color: black;
+  margin-bottom: 10px;
+  height: 20px;
+  width: 400px;
+  padding: 5px;
+}
+.design .container .box:nth-child(3) .comment-input {
+  display: inline-block;
+  background: white;
+  color: black;
+  height: 60px;
+  width: 400px;
+  padding: 5px;
+}
+.design .container .box:nth-child(3) .btn {
+  background: rgb(48, 157, 201);
+  color: aliceblue;
+  width: 100px;
+  height: 30px;
+  transition: 0.5s;
+}
+.design .container .box:nth-child(3) .btn:hover {
+  background-color: rgb(230, 93, 93);
+  cursor: pointer;
+  transition: 0.5s;
+}
+/*media queries*/
+@media only screen and (max-width: 850px) {
+  header ul {
+    text-align: right;
+    max-width: 100%;
+    max-height: 0px;
+    overflow: hidden;
+    background-color: rgb(29, 28, 28);
+    transition: 0.5s;
+  }
+  .showing {
+    max-height: 100cm;
+  }
+  header ul li {
+    max-width: 100%;
+  }
+  header .menu-toggle {
+    position: absolute;
+    display: block;
+    right: 20px;
+    top: 20px;
+    font-size: xx-large;
+  }
+}

@@ -1,0 +1,76 @@
+/*-------------------------------------------------------catalog-----------------------------------------*/
+body {
+  background-image: url(about.jpg);
+  background-attachment: fixed;
+} /*-----------------------------------------------------------start main html--------------------------------------------------------------*/
+.main-body {
+  background-image: url(back3.jpg);
+}
+.container3 {
+  max-width: 100%;
+  height: 500px;
+  margin: 60px;
+}
+.box3 {
+  position: relative;
+  max-width: 100%;
+  width: 420px;
+  height: 310px;
+  margin: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  transition: 0.5s;
+}
+.box3:hover {
+  background: rgb(33, 169, 223);
+  transition: 0.5s;
+}
+.box3 .imgbox3 a {
+  position: absolute;
+  top: 0;
+  max-width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.box3 .imgbox3 img {
+  position: absolute;
+  max-width: 100%;
+  width: 200vh;
+  transition: 0.5s;
+  object-fit: cover;
+}
+.box3:hover .imgbox3 img {
+  opacity: 0;
+  transition: 0.5s;
+}
+.box3 .content3 {
+  position: absolute;
+  left: 10%;
+  bottom: 3px;
+  width: 75%;
+  height: 30px;
+  background: black;
+  transition: 0.5s;
+  overflow: hidden;
+  padding: 8px;
+}
+.box3:hover .content3 {
+  max-width: 100%;
+  height: 95%;
+  bottom: 0;
+}
+.box3 .content3 h2 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  color: white;
+}
+.box3 .content3 p {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: white;
+  transition: 0.5s;
+  text-align: center;
+}
